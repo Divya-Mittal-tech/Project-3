@@ -94,7 +94,8 @@ body {
 .right-section {
   background-color: #f44336;
   right: 0px;
-  position: absolute;
+  /* position: absolute; */
+  padding: 60px 40px 60px 40px;
 }
 
 .right-section .icon {
@@ -328,11 +329,12 @@ h2 {
   line-height: 1.8;
 }
 
-.py-5 {
-  padding: 0 10px;
-  margin: 0 0;
+.container_2 {
+  /* padding: 0 10px;
+  margin: 0 0; */
   /* justify-content: center;*/
-  width: 95%;
+  width: 100%;
+  border: 2px solid red;
 }
 
 .align-items-center {
@@ -413,14 +415,25 @@ h2 {
 .testimonial-section {
   display: flex;
   align-items: center;
-  padding: 50px;
+  /* padding: 50px; */
+  /* height: 800px; */
 }
-.testimonial-image {
-  flex: 1;
+ .testimonial-image {
+  /* flex: 1; */
+  height:100%;
+  overflow-y: hidden;
+  max-width: 50%;
+} 
+.image_testimonal{
+  height: 100%;
+  object-fit: contain;
+  width: 50%;
 }
 .testimonial-content {
-  flex: 1;
+  /* flex: 1; */
   padding-left: 50px;
+  height: 100%;
+  max-width: 50%;
 }
 .testimonial-content h2 {
   font-size: 2rem;
@@ -548,6 +561,9 @@ h2 {
   text-align: left;
   margin-bottom: 20px;
 }
+/* .feature_image{
+  border: 2px solid blue;
+} */
 .feature-icon {
   font-size: 30px;
   color: white;
@@ -575,8 +591,9 @@ h2 {
 .main-content {
   background-color: #ff6b6b;
   color: white;
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
+  
 }
 .main-content img {
   width: 100%;
@@ -584,8 +601,8 @@ h2 {
   margin: 0 0 20 0;
 }
 .main-content p {
-  margin-bottom: 20px;
-  text-align: justify;
+  margin: 20px;
+  text-align: center;
 }
 .main-content button {
   background-color: white;
@@ -595,7 +612,16 @@ h2 {
   font-size: 16px;
   cursor: pointer;
   border-radius: 50px;
+  margin-bottom: 20px;
 }
 .main-content button:hover {
   background-color: #f1f1f1;
+}
+.image_2{
+  width: 100%;
+  object-fit: fill;
+}
+.left_quote{
+  padding: 0 50px;
+  /* border: 2px solid blue; */
 }
