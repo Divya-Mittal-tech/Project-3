@@ -89,6 +89,42 @@ text-decoration: none;
 }
 
 
+.carousel-caption {
+  bottom: 30%;
+}
+.carousel-caption h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+}
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+/* .btn-custom {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  color: white;
+}
+.btn-custom a:hover{
+  background-color: white;
+  color: black;
+} */
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  /* text-decoration: none; */
+  /* font-weight: bold; */
+}
+
+.btn-custom:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 
 .left-section {
   padding: 50px;
