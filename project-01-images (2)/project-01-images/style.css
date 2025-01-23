@@ -87,11 +87,32 @@ text-decoration: none;
 .navbar-nav .nav-item .nav-link:hover {
   color: red; /* Font color on hover */
 }
+.carousel-item {
+  position: relative; /* Ensures the overlay is positioned correctly */
+}
+
+.carousel-item img {
+  position: relative; /* Ensures the image stays below the overlay */
+  z-index: 1; /* Places the image below the overlay */
+}
+
+.carousel-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 27, 158, 0.5); /* Blue with 50% transparency */
+  z-index: 2; /* Places the overlay above the image */
+}
+
 
 
 .carousel-caption {
-  bottom: 30%;
+  bottom: 10%;
 }
+
+
 .carousel-caption h1 {
   font-size: 3.5rem;
   font-weight: bold;
@@ -463,7 +484,7 @@ h2 {
 }
 .image_testimonal {
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   max-width: 50%;
 }
 .testimonial-content {
