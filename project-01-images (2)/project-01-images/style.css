@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -26,11 +26,8 @@ body {
   text-align: center;
 } */
  .show{
-  
-text-decoration: none;
+  text-decoration: none;
   padding-right: 5px;
-  
-
  }
  .contact-info {
   display: flex;
@@ -39,17 +36,18 @@ text-decoration: none;
   background-color: #e74c3c;
   clip-path: polygon(0 2%, 100% 0%, 100% 100%, 8% 100%);
   color: white;
-  padding: 5px 10px; /* Add some padding for better spacing */
-  gap: 10px; /* Reduces the gap between items */
+  padding: 5px 10px; 
+  gap: 10px; 
 }
-.left-line{
-  height: auto; /* Adjust the height to fit the reduced gap */
+.left-line:firs{
+  height: auto; 
   width: 1px;
   background-color: rgb(181, 181, 181);
   margin-right: 20px;
 }
+
 .line {
-  height: 20px; /* Adjust the height to fit the reduced gap */
+  height: 20px; 
   width: 1px;
   background-color: white;
 }
@@ -57,11 +55,11 @@ text-decoration: none;
 .contact-info a {
   color: white;
   text-decoration: none;
-  font-size: 14px; /* Adjust font size to ensure compact design */
+  font-size: 14px; 
 }
 
 .contact-info span {
-  font-size: 14px; /* Ensure consistent font size with the link */
+  font-size: 14px; 
 }
 
 .navbar-brand {
@@ -76,24 +74,24 @@ text-decoration: none;
 .navbar-nav{
  margin-right: -20px;
 }
-/* Default link style */
+
 .navbar-nav .nav-item .nav-link {
-  color: blue; /* Initial font color */
-  transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+  color: blue; 
+  transition: color 0.3s ease-in-out;
   margin-right: 15px;
 }
 
-/* Hover effect */
+
 .navbar-nav .nav-item .nav-link:hover {
-  color: red; /* Font color on hover */
+  color: red; 
 }
 .carousel-item {
-  position: relative; /* Ensures the overlay is positioned correctly */
+  position: relative; 
 }
 
 .carousel-item img {
-  position: relative; /* Ensures the image stays below the overlay */
-  z-index: 1; /* Places the image below the overlay */
+  position: relative; 
+  z-index: 1; 
 }
 
 .carousel-item .overlay {
@@ -102,8 +100,8 @@ text-decoration: none;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(27, 27, 158, 0.5); /* Blue with 50% transparency */
-  z-index: 2; /* Places the overlay above the image */
+  background-color: rgba(27, 27, 158, 0.5); 
+  z-index: 2; 
 }
 
 
@@ -687,5 +685,6 @@ h2 {
 }
 .left_quote {
   padding: 0 50px;
-  /* border: 2px solid blue; */
+  
 }
+
